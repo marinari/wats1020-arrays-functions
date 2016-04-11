@@ -11,7 +11,7 @@ var truncateWords = function(longText, numWords){
     var numWords = longTextArray.length;
     // 3. Determine how many words should be removed from the String
     // 4. Remove those words from the Array
-    var shortTextArray = longTextArray.splice (0, WordLimit);
+    var shortTextArray = longTextArray.splice (0, wordLimit);
     // 5. Add an additional String item to the Array to put an ellipses in: "..."
     shortTextArray.push ('...');
     // 6. Use the join() function to convert the Array back into a String
